@@ -1,0 +1,60 @@
+
+body {
+    background-color: skyblue;
+}
+
+.leaf1 {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:200px;
+    height:200px;
+    background: brown;
+    border-radius: 200px 0;
+}
+
+.leaf2{
+  position: absolute;
+  left:300px;
+  width:100px;
+  height:100px;
+  background: tan;
+  border-radius: 300px 0;
+}
+
+
+.leaf3 {
+    position: absolute;
+    bottom:20px;
+    transform:rotate(85deg);
+    width:200px;
+    height:200px;
+    background: teal;
+    border-radius: 200px 0;
+
+}
+
+
+.leaf4 {
+    position: absolute;
+    right:50px;
+    transform:rotate(75deg);
+    width:60px;
+    height:60px;
+    background: green;
+    border-radius: 200px 0;
+}
+
+
+.leaf5 {
+    position: absolute;
+    bottom:10px;
+    margin-left:900px;
+    margin-bottom: 50px;
+    transform:rotate(200deg);
+    width:60px;
+    height:60px;
+    background: goldenrod;
+    border-radius: 200px 0;
+}
